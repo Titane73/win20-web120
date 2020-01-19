@@ -36,7 +36,7 @@
 	</div>	
     <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div> 
 	<div>
-		<input type="submit" value="submit" />
+		<input type="submit" value="Submit" />
 	</div>
     </form>
 	<!-- END HTML FORM -->

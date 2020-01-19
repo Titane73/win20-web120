@@ -7,7 +7,10 @@
 
             }
         }	
-
+div.contact_form {
+    width: 60%;
+    margin: 0 auto;
+}
 
 
         /* start reCAPTCHA styles */
@@ -30,7 +33,7 @@
              margin-bottom: 10px;
         }
 
-        input[type="submit"], input[type="button"] {
+        input[type="Submit"], input[type="button"] {
             background-color: #d3d3d3;
             border-radius: 4px;
             border: solid 2px #ccc;
@@ -52,3 +55,4 @@
         }
         
         /* end reCAPTCHA styles */
+
