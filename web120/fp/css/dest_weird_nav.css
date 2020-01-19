@@ -1,0 +1,129 @@
+/* Nav CSS from https://codepen.io/mburnette/pen/zKrDm */
+
+
+.nav {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* basic menu styles */
+
+.block-menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    width: 100%;
+    background: #000;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.block-menu li {
+    list-style-type: none;
+    border-radius: 20px;
+
+}
+
+.block-menu li a {
+    color: #fff;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Times, serif;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+/* animation domination */
+.three-d {
+    perspective: 500px;
+    transition: all .07s linear;
+    position: relative;
+    cursor: pointer;
+}
+
+/* complete the animation! */
+.three-d:hover .three-d-box,
+.three-d:focus .three-d-box {
+    transform: translateZ(-25px) rotateX(90deg);
+}
+
+.three-d-box {
+    transition: all .3s ease-out;
+    transform: translatez(-25px);
+    transform-style: preserve-3d;
+    /*    pointer-events: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* 
+	put the "front" and "back" elements into place with CSS transforms, 
+	specifically translation and translatez
+*/
+.front {
+    transform: rotatex(0deg) translatez(25px);
+    border-radius: 20px;
+}
+
+.back {
+    transform: rotatex(-90deg) translatez(25px);
+    color: #730000;
+    border-radius: 20px;
+}
+
+.front,
+.back {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    padding: 15px 10px;
+    color: #fff;
+    /*    pointer-events: none;*/
+    box-sizing: border-box;
+}
+
+.back {
+    background: #930000;
+    border-radius: 20px;
+}
+
+/* menu for small screen */
+
+@media all and (max-width:740px) {
+    .block-menu {
+        flex-flow: column;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .block-menu li a {
+        color: #fff;
+        display: block;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        font-family: Times, serif;
+        overflow: hidden;
+        line-height: 16px;
+        font-size: 14px;
+        padding: 15px 10px
+    }
+
+
+}

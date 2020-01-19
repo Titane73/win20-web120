@@ -1,0 +1,687 @@
+/* Global rules */
+
+
+html {
+    background-color: #730000;
+    color: #fff;
+    font-family: Times, serif;
+    font-size: 0.95em;
+}
+
+
+
+
+p {
+    margin: 1em;
+    /* Top Right Bottom Left (TRBL) */
+}
+
+a {
+    color: #FFA9A9;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #ef0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #3FFFFF;
+}
+
+h3 {
+    margin-left: 1em;
+
+}
+
+h6 {
+    display: none;
+}
+
+
+main.wrapper {
+    background-color: #730000;
+}
+
+header.subheader {
+    width: 100%;
+}
+
+
+/* Styles for "Logo/Banner" */
+
+.home {
+    border-radius: 20px;
+    background-color: #000;
+    margin: auto;
+    width: 100%;
+}
+
+.logo {
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.logo img {
+    position: relative;
+    margin: 10px;
+    padding: 2px;
+    width: 200px;
+    height: 125px;
+    border: 2px solid #000;
+    border-radius: 20px;
+
+}
+
+h1.logo {
+    text-align: center;
+}
+
+a.logo {
+    color: #fff;
+    background-color: transparent;
+}
+
+a:hover.logo {
+    color: red;
+    background-color: transparent;
+}
+
+a:visited.logo {
+    color: #fff;
+}
+
+
+
+
+
+/* Styles for index.html */
+
+section.index {
+    width: 100%;
+    text-align: justify;
+}
+
+#amanduh {
+    float: right;
+    margin: 10px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    width: 30%;
+}
+
+div.video {
+    float: left;
+    margin: 20px;
+    width: 40%;
+}
+
+.embed-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border: 5px inset #1f1f1f;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+}
+
+.embed-video iframe,
+.embed-video object,
+.embed-video embed {
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+aside.amanduh {
+    position: relative;
+    clear: both;
+    margin: 2em auto;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 70%;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
+    font-weight: 700
+}
+
+#amanduh_img2 {
+    position: absolute;
+    border-radius: 20px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+
+/*  Styles for projects.html */
+
+
+.embed-calendar {
+    position: relative;
+    border-radius: 20px;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 80%;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.embed-calendar iframe,
+.embed-calendar object,
+.embed-calendar embed {
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Styles for about.html and linked about pages */
+
+.about {
+    border: 5px solid #000;
+    border-radius: 20px;
+    background-color: #bf0000;
+    padding-bottom: 50px;
+}
+
+.bios {
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+#cp_widget_46fe9956-be46-41fe-8be4-c56921270ccf {
+    background-color: #000;
+    border-radius: 20px;
+}
+
+
+#weirdo1 {
+    float: left;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* Styles for Gallery Elements */
+
+/* Gallery page first, then collections */
+
+#gal_bkgrd {
+    background-color: #000;
+    background-image: url(../images/background_film.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 80%;
+    height: 60%;
+    z-index: -1;
+    margin: auto;
+    overflow: hidden;
+}
+
+#gal_bkgrd figcaption {
+    margin-left: 25px;
+    text-align: left;
+}
+
+figure.gal_link {
+    border-radius: 20px;
+    width: 110%;
+}
+
+figure.gal_link img {
+    height: 150px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+#film {
+    background-color: #730000;
+    color: #fff;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    opacity: .7;
+}
+
+#film:hover {
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+
+#stage {
+    background-color: #940000;
+    color: #fff;
+    position: relative;
+    top: 35%;
+    left: 26%;
+    opacity: .7;
+}
+
+#stage:hover {
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+#beyond {
+    background-color: #660000;
+    color: #fff;
+    position: relative;
+    top: 55%;
+    left: 45%;
+    opacity: .7;
+}
+
+#beyond:hover {
+    background-color: #ff0000;
+    opacity: 1;
+}
+
+
+
+
+
+/* Styles for comment placeholder */
+
+
+section.comments {
+    margin-top: 10px;
+    width: 99%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+textarea.comments {
+    border-radius: 20px;
+    background-color: #E0DBDB;
+    width: 100%;
+
+}
+
+
+
+
+/* Styles for contact.php & multiple.php */
+
+.form_container {
+    background-color: #000;
+    border-radius: 20px;
+    margin: auto;
+    width: 60%;
+
+}
+
+.contact_container {
+    text-align: center;
+    margin: auto;
+
+}
+
+
+fieldset {
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#button {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+    width: 90%;
+    padding: 6px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 0;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+#recaptcha {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+
+
+/* End Contact */
+
+
+
+/* Styles for member.html */
+
+.member {
+    margin: auto;
+    text-align: center;
+}
+
+.member img {
+    border: 5px solid #000;
+    border-radius: 20px;
+    background-color: #bb0000
+}
+
+.member figcaption {
+    margin-bottom: 2em;
+    font-size: 3em
+}
+
+.member a {
+    background-color: transparent;
+}
+
+.member a:hover img {
+    border: 5px dotted #000;
+    background-color: #00BB00;
+}
+
+/* Styles for image links at bottom of page */
+
+
+section.links {
+    clear: both;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.links figure {
+    display: inline-block;
+}
+
+section.links figcaption {
+    text-align: center
+}
+
+section.links a img {
+    border: 5px solid #000;
+    border-radius: 20px;
+    width: 100px;
+    height: 75px;
+}
+
+.links a:hover {
+    background-color: transparent;
+}
+
+.links a:hover img {
+    border: 5px dotted #df0000;
+}
+
+.disclaim {
+    margin: auto;
+    border: 2px solid #000;
+    width: 90%
+}
+
+footer {
+    color: #fff;
+    margin: auto;
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    main.wrapper {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/* Hide agenda view of calendar */
+
+div.embed-calendar.agenda-view {
+    display: none;
+}
+
+h3.agenda {
+    display: none;
+}
+
+
+/* Break at 950px for aethestics */
+
+/*
+@media all and (max-width: 951px) and (min-width: 1199px) {
+
+    main.wrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+
+*/
+
+
+
+
+
+/* TABLET */
+
+@media all and (min-width:501px) and (max-width:950px) {
+    main.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+    .embed-video {
+        border: 20px inset #840000;
+    }
+
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+
+ #amanduh {
+        float: right;
+        margin: 10px;
+        border: 3px solid #000;
+        border-radius: 20px;
+        width: 50%;
+    }
+
+    /* galleries.html */
+
+
+    figure.gal_link img {
+        width: 200px;
+    }
+
+    #film {
+        left: 5%;
+    }
+
+    #stage {
+        left: 5%;
+    }
+
+    #beyond {
+        left: 5%;
+    }
+
+    div.gallery {
+        margin: auto;
+        padding: 25px;
+    }
+}
+
+
+/* Styles for responsive reCAPTCHA */
+
+#rc-imageselect,
+.g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    margin: auto;
+}
+
+
+
+
+/* PHONE */
+
+@media all and (max-width:500px) {
+
+    main.wrapper {
+        width: 100%;
+    }
+
+    section.index {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1em;
+
+    }
+
+    a img {
+        width: 100%;
+        height: 75%;
+    }
+
+
+    h1 {
+        width: 99%;
+        padding-left: 1%;
+    }
+
+    div.video {
+
+        width: 95%;
+        margin-bottom: 1em;
+    }
+
+    .embed-video {
+        border: 10px inset #840000;
+    }
+
+/* About.html */
+    
+    
+#weirdo1 {
+    float: none;
+    width: 90%;
+}    
+    
+  #amanduh {
+        float:none;
+        margin: 10px;
+        border: 3px solid #000;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    /* Begin Responsive Calendar */
+
+    div.embed-calendar {
+        height: 100%;
+        max-width: 95%;
+    }
+
+    /* Show agenda view*/
+
+    div.embed-calendar.agenda-view {
+        display: block;
+    }
+
+    h3.agenda {
+        display: block;
+    }
+
+    /* Hide month view */
+    div.embed-calendar.month-view {
+        display: none;
+    }
+
+    h3.month {
+        display: none;
+    }
+
+    /*   End Responsive Calendar */
+
+    div.gallery {
+        margin: auto;
+        padding: 3px;
+    }
+
+    /* galleries.html */
+
+
+    figure.gal_link img {
+        width: 175px;
+    }
+
+    #film {
+        left: 5%;
+    }
+
+    #stage {
+        left: 5%;
+    }
+
+    #beyond {
+        left: 5%;
+    }
+
+    /* Styles for responsive contact.html & reCAPTCHA */
+
+    .form_container {
+        width: 80%;
+    }
+
+    #rc-imageselect,
+    .g-recaptcha {
+        transform: scale(0.58);
+        -webkit-transform: scale(0.58);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+}

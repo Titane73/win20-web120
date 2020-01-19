@@ -1,0 +1,63 @@
+Test code... 
+
+
+
+testing for about page.
+
+
+#bkgr_about1 {
+    background-image: url(/images/cinema-curtain_300x197.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+
+#about1 {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    border: 2px solid #000;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(74, 0, 0, .9);
+    font-size: 2em;
+    text-align: center;
+}
+
+#bkgr_about2 {
+    background-image: url(/images/glitter-heels_330x220.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    position: absolute;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    top: 40%;
+    left: 40%;
+    z-index: -1;
+}
+
+#about2 {
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    border: 2px solid #000;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(74, 0, 0, .9);
+    font-size: 2em;
+    text-align: center;
+    
+}
