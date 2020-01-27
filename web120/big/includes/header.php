@@ -20,7 +20,7 @@
 
     <main>
         <header>
-            <h1><a href="index.html">Ti Hall: A Study in Web Development</a></h1>
+            <h1><a href="index.php">Ti Hall: A Study in Web Development</a></h1>
             <nav id="cssmenu">
                 <ul>
                     <li><a href="../index.php"><i class="fa fa-fw fa-home"></i> WEB120</a></li>
