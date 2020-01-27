@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1>Ti Hall: WEB120 Portal Website</h1>
+        <h1><a href="index.php">Ti Hall: WEB120 Portal Website</a></h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.php" class="active">Welcome</a>
             <!--<a href="elements.php">HTML Elements</a>-->
