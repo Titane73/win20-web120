@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ti: Contact Page</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://kit.fontawesome.com/cd34044565.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/tables.css" />
+</head>
+
+<body>
+
+    <main class="wrapper">
+
+        <header>
+            <h1 id="page_head"><a href="index.php"><i class="logo fas fa-pen-square"></i>Ti Hall: WEB120 Portal Website</a></h1>
+            <nav class="topnav" id="myTopnav">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="big/index.php">Big</a></li>
+                    <li><a href="aia.php">AIA</a></li>
+                    <li><a href="flowchart.php">Flowchart</a></li>
+                    <li><a href="fp/index.html">Final Project</a></li>
+                    <li><a class="selected" href="contact.php">Contact Ti</a></li>
+                    <li> <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <h2 class="pageID">Contact Ti</h2>
+        </section>
+
+        <!-- start header.php   -->
+
+        <div class="contact_form">
+            <!-- START HTML FORM -->
+            <form action="contact.php" method="post">
+                <div>
+                    <label>
+                        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+                    </label>
+                </div>
+                <!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
+                <div>
+                    <label>
+                        Comments:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Your comments are important to us!" tabindex="30"></textarea>
+                    </label>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LeHzdAUAAAAAGwdtNQRNzcqzQejgSylWYuIkEVl"></div>
+                <div>
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+            <!-- END HTML FORM -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+            <script>
+                /**
+                 * requires reCAPTCHA so user doesn't lose form data 
+                 *
+                 * https://stackoverflow.com/questions/27706594/how-can-i-make-recaptcha-a-required-field
+                 * 
+                 * In this version, jQuery is required and code will find first form on page and require 
+                 * the reCAPTCHA for that form using document.forms[0]
+                 */
+
+                function checkRecaptcha() {
+                    res = $('#g-recaptcha-response').val();
+                    if (res == "" || res == undefined || res.length == 0)
+                        return false;
+                    else
+                        return true;
+                }
+                $(function() {
+                    let thisForm = document.forms[0];
+                    $(thisForm).submit(function(e) {
+                        if (!checkRecaptcha()) {
+                            alert("Please confirm you are not a robot.");
+                            return false;
+                        }
+                    });
+                });
+
+            </script>
+        </div>
+        <!-- Start footer.php-->
+
+        <!-- Page footer     -->
+        <footer>
+            <p><small>&copy; 2019 - 2020 by <a href="contact.php">Ti Hall </a>, All Rights Reserved
+                    ~ <a href="https://validator.w3.org/check/referer" target="_blank">HTML5</a>
+                    ~ <a href="https://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">CSS3</a></small></p>
+        </footer>
+    </main>
+
+    <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

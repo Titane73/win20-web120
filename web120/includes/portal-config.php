@@ -23,6 +23,7 @@ switch(THIS_PAGE){
         $title = "Ti's WEB120 Portal Page";
         $logo = 'fas fa-home';
         $PageID = 'Welcome';
+        $logo_color = 'style ="color:#226666';
     break;
 
     case 'big/index.php':
@@ -34,13 +35,14 @@ switch(THIS_PAGE){
     case 'aia.php':
         $title = "Ti: AIA";
         // $logo = 'fas fa-pen-square';
-        $PageID = 'Audience, Issues, and Approach';
+        $PageID = 'AIA (Audience, Issues, and Approach)';
+        // $logo_color = 'style ="color:#615192';
     break;
 
     case 'flowchart.php':
         $title = "Ti: Flowchart";
         // $logo = 'fas fa-pen-square';
-        $PageID = 'Flowchart';
+        $PageID = 'Final Project Flowchart &amp; Layouts';
     break;
 
     case 'fp/index.php':
@@ -53,16 +55,18 @@ switch(THIS_PAGE){
         $title = "Ti: Contact Page";
         $logo = 'fas fa-pen-square';
         $PageID = 'Contact Ti';
+        // $logo_color = 'style ="color:#403075';
     break;
 
     default:
         $title = THIS_PAGE;
         $logo = 'fas fa-home';
         $PageID = 'Welcome';
+        // $logo_color = 'style ="color:#226666';
    }
 
 //place URL & labels in the array here for navigation:
-    $nav1['index.php'] = "Welcome";
+    $nav1['index.php'] = "Home";
     $nav1['big/index.php'] = "Big";
     $nav1['aia.php'] = "AIA";
     $nav1['flowchart.php'] = "Flowchart";

@@ -1,8 +1,5 @@
 <?php include "includes/header.php";?>
 
-<main class="wrapper">
-
-    <h2 class="subheader">Contact Form</h2>
     <div class="contact_form">
         <?php
         /*

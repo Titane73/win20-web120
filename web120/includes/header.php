@@ -11,18 +11,25 @@
     <link rel="stylesheet" href="css/portal.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/forms.css" />
+    <link rel="stylesheet" href="css/tables.css" />
 </head>
-<main class="wrapper">
+
 <body>
-    <header>
-        <h1><a href="index.php"><i class="logo <?=$logo?>"></i>Ti Hall: WEB120 Portal Website</a></h1>
-        <nav class="topnav" id="myTopnav">
-        <?=makeLinks($nav1)?>  
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
-    </header>
-    
-    <section>
-        <h2 class="pageID"><?=$PageID?></h2>
-  
-    <!-- start header.php   -->
+
+    <main class="wrapper">
+
+        <header>
+            <h1 id="page_head"><a href="index.php"><i class="logo <?=$logo?>"></i>Ti Hall: WEB120 Portal Website</a></h1>
+            <nav >
+                <ul class="topnav" id="myTopnav">
+                    <?=makeLinks($nav1)?>
+                    <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <h2 class="pageID"><?=$PageID?></h2>
+        </div>
+
+        <!-- start header.php   -->
