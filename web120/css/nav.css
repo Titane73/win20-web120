@@ -1,35 +1,64 @@
 /* Global rules */
+
 .topnav {
-    margin: auto;
     background-color: #2E4272;
     overflow: auto;
 }
 
-.topnav a {
+.topnav li {
+    display: inherit;
+}
+
+/* .topnav a {
     float: left;
     display: block;
     color: #fff;
     text-align: center;
-    padding: 12px 12px;
+    padding: 14px 16px;
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 16px;
-}
+    font-size: 1.4em;
+} */
 
-/*
-.topnav a.hover, .active {
-    color: #000;
-    background-color: #403075;
+.topnav a.hover {
+    background-color: #669999;
 }
-*/
 
 .topnav .icon {
     display: none;
 }
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E4272;
+}
 
-/* Responsive rules - apply when screen width is less than 1200px */
+/* Float the list items side by side */
+ul.topnav li {float: left;}
 
-@media screen and (max-width: 1199px) {
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: capitalize;
+    font-size: 1.4em;
+}
+
+/* Change background color of navigation on selected page */
+ul.topnav li a.selected {
+    background-color: #669999;
+    color: #fff;
+}
+
+/* Responsive rules - apply when screen width is less than 901 */
+
+@media screen and (max-width: 900px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -58,21 +87,21 @@
 
 
 /* DESKTOP */
-@media all and (min-width:1200px) {
+@media all and (min-width: 901px) {
     .topnav {
-        width: 81%;
+        width: 100%;
     }
 }
 
 /* TABLET */
-@media all and (min-width:501px) and (max-width:1199px) {
+@media all and (min-width:401px) and (max-width:900px) {
     .topnav {
-        width: 91%;
+        width: 100%;
     }
 }
 
 /* PHONE */
-@media all and (max-width:500px) {
+@media all and (max-width:400px) {
     .topnav {
         width: 100%;
     }
