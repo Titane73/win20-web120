@@ -1,311 +1,634 @@
-/* BIG Website */
-/* Global */
- html {
-     background-color: #25274d;
-     font-family: "Times New Roman", Times, serif;
-}
- main {
-     background-color: #F2F3F3;
-     width: 98%;
-     border: 3px solid #25274d;
-     border-radius: 10px;
-     margin: auto;
-}
- a {
-     text-decoration: none;
-}
- a:link {
-     color: #044762;
-}
- a:visited {
-     color: #29648a;
-}
- h1 a {
-     text-decoration: none;
+/* ***************************************
+                Global
+*************************************** */
+
+html {
+    background-color: #000C26;
+    background-image: url('../images/Data%20Stream%20Big%20Horizontal%20Video%20Clip%20576227%20Pond5.jpeg');
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
 }
 
-h2.article {
-    display: none;
-}
- section {
-     margin-left: 10px;
-     float: left;
-     width: 65%;
-}
- section.home {
-     text-align: justify;
-}
- section.tools {
-     width: 65%;
-     padding-left: 10px;
-}
- aside {
-     box-sizing: content-box;
-     margin-top: 50px;
-     margin-right: 10px;
-     float: right;
-     width: 28%;
-}
- aside.home {
-     border: 5px inset #29648a;
-     border-top-left-radius: 20px;
-     border-bottom-left-radius: 20px;
-     background-image: radial-gradient(#E7EDFB 75%,#D6D6DE);
-}
- aside h2, h3 {
-     text-align: center;
-}
- ul {
-     list-style-type: square;
-}
- li {
-     margin: 1em;
-}
- p.ladytron {
-     text-align: center;
-}
- .concert-info {
-     margin: auto;
-     text-align: center;
-}
- section.contact {
-     margin: auto;
-     align-content: center;
+main.wrapper {
+    background-color: #C4C5C7;
+    overflow: hidden;
+    margin: 20px auto 10px auto;
+    width: 95%;
+    border: 2px solid #000C26;
+    border-radius: 5px;
 }
 
-form > div {
-    margin:1em;
+
+h1 {
+    font-weight: bold;
+
 }
 
-/*Start of Gallery*/
- figure {
-     display: inline-block;
-     margin: 10px;
-     border: 5px inset #29648a;
-     border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    padding: .5em;
 }
- div.gallery {
-     text-align: center;
-}
- div.gallery img {
-     border-radius: 15px;
-}
- section.gallery{
-     width: 68%;
-}
- section.gallery h2 {
-     font-size: 1.2em;
-     text-align: center;
-}
- aside.gallery {
-     margin-top: 50px;
-     box-sizing: content-box;
-     background: linear-gradient(-25deg, #29648a, #EAEAED, #EAEAED, #A3A4B3);
-     width: 25%;
-     border: 5px outset #29648a;
-     border-top-left-radius: 20px;
-     border-bottom-left-radius: 20px;
-}
- .gallery a {
-     color: #25274d;
-     text-decoration: none;
-}
-/* End of Gallery*/
 
+p {
+    margin: 1em;
+    /* Top Right Bottom Left (TRBL) */
+}
 
+a {
+    color: #226666;
+    text-decoration: none;
+}
 
-/*Start of CSS Grid*/
- .grid-container {
-     display: grid;
-     grid-gap: 10px;
-     grid-template-columns: 60% 1fr;
-     grid-template-areas: 
-         'main links' 
-         'main cited';
-     margin-top: 20px;
-     box-sizing: content-box;
+a:hover {
+    color: #fff;
+    background-color: #3C374E;
+    text-decoration: none;
 }
- .main {
-     grid-area: main;
-     margin: 1em;
-     text-align: justify;
-}
- .main li{
-     margin: 1em;
-}
- .links {
-     grid-area: links;
-     width: 90%;
-     height: auto;
-     padding: 10px;
-     padding-top: 10px;
-     background-image:linear-gradient(to right, #E7EDFB 75%,#D6D6DE);
-     color: #25274d;
-     margin: auto;
-     border: 3px solid #25274d;
-     border-bottom-left-radius: 20px;
-     border-top-left-radius: 20px 
-}
- .links a {
-     font-size: 1.1em;
-}
- .links h2 {
-     font-size: 1.5em;
-     text-align: center;
-}
- .cited {
-     font-size: .75em;
-     background-color: #F2F3F3;
-     width: 90%;
-     margin: auto;
-     text-align: justify;
-     border: 1px solid #25274d;
-     border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
-     padding: 1em;
-}
-.cited h3 {
-    font-size: 1.5em
-}
-/*End of CSS Grid*/
 
-aside.tools {
+footer {
+    clear: both;
     text-align: center;
-    border: 2px solid #25274d;
-    border-radius: 10px;
+    padding: 1em;
+}
+
+/* --------------------------------------
+        Start - Research pages
+---------------------------------------*/
+
+
+#timeline img {
+    width: 90%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+div.code {
+    float: left;
+    width: 25%;
+
+}
+
+.two-col {
+    float: right;
+    width: 70%;
+    margin: 5px;
+}
+
+#two-col {
+    max-width: 100%;
+}
+
+.clear_paragraph {
+    clear: both;
+    padding-top: 1em;
+}
+
+article.research {
+    float: left;
+    background: #fff;
+    width: 58%;
+    border-radius: 5px;
+    margin: 0 10px 20px 10px;
+}
+
+aside.index,
+aside.research {
+    float: right;
+    background: RGB(136, 124, 175, 0.3);
+    margin: 10px 10px 20px 0;
+    width: 38%;
+    border: 1px solid #000C26;
+    border-radius: 5px;
+}
+
+aside.table {
+    clear: both;
+    width: 95%;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #000C26;
+    border-radius: 5px;
+    overflow-x: auto;
+    background-color: #407F7F;
+
+}
+
+aside.cites {
+    background: RGB(136, 124, 175, 0.5);
+    margin: 10px 10px 20px 0;
+}
+
+.cites li {
+    font-size: .8em;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000C26;
+    margin: auto;
+
+}
+
+.table h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #887CAF;
+    border-radius: 5px;
+}
+
+tr:nth-child(even),
+thead tr {
+    background-color: #d3d3d3;
+    color: #000;
+}
+
+tr:nth-child(odd),
+thead tr {
+    background-color: #F7EDED;
+    color: #000;
+}
+
+td,
+th {
+    border: 1px solid #000;
+    padding: .5em;
+
+}
+
+.col1 {
+    white-space: nowrap
+}
+
+
+th {
+    color: #0D4D4D;
+    text-align: left;
+    font-size: 1.3em;
+
+}
+
+td:first-of-type {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+
+
+/* --------------------------------------
+        Start - Google pages
+---------------------------------------*/
+
+aside.google {
+    float: right;
+    border: 1px solid #000C26;
+    border-radius: 5px;
+    margin: 10px 20px 20px 0;
+    padding-bottom: 20px;
+    width: 35%;
+    text-align: center;
+    background-color: RGB(136, 124, 175, 0.5);
+
+}
+
+.google h3 {
+    text-align: left;
+    padding-left: 2em;
+}
+
+.event {
+    width: 90%;
+    border: 1px dotted #000C26;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #669999;
+}
+
+.event li {
     list-style-type: none;
 }
-ul.tools {
-    list-style-type: none;
-}
 
 
-/* Start - Embed Responsively styles */
- .embed-container {
-     border: 2px solid #25274d;
-     border-radius: 10px;
-     position: relative;
-     padding-bottom: 56.25%;
-     height: 0;
-     overflow: hidden;
-     max-width: 90%;
-}
- .embed-container iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-}
 
-.embed-container.video {
-         border: 5px solid #f7f4f8;
-         position: relative;
-         height: 0;
-         overflow: hidden;
-         max-width: 100%;
+/* --------------------------------------
+        Start - Forms
+---------------------------------------*/
+
+/* keeps form from bunching up to left */
+
+@media all and (min-width:501px) {
+    main.wrapper form {
+        margin: 22.8px;
+
     }
-/* End - Embed Responsively styles */
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+
+/* --------------------------------------
+        End Forms
+---------------------------------------*/
+
+
+
+/* --------------------------------------
+    Start - Embed Responsively styles
+---------------------------------------*/
+
+.embed-container {
+    float: left;
+    position: relative;
+    margin-left: 1em;
+    border: 2px solid #25274d;
+    border-radius: 5px;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 60%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
 
 
 
 /* Hide agenda view of calendar */
- div.embed-container.agenda-view {
-     display: none;
-}
- h2.agenda-view {
-     display: none;
-}
-/*END - Hide agenda view */
 
-
- footer {
-     padding: 1em;
-     text-align: center;
-     clear: both 
+div.embed-container.agenda-view {
+    display: none;
 }
 
+h3.agenda-view {
+    display: none;
+}
+
+/* End - Hide agenda view */
 
 
-/* Calendar rules for lower resolution*/
- @media all and (max-width:780px) {
+
+/* --------------------------------------
+    End - Embed Responsively styles
+---------------------------------------*/
+
+
+div.dot {
+    float: right;
+    margin-right: 1em;
+    overflow: auto;
+
+}
+
+div.dot iframe {
+    border: 0;
+    overflow: scroll;
+}
+
+
+
+
+/* --------------------------------------
+   FontAwesome Icons
+---------------------------------------*/
+
+i.logo {
+    color: #000C26;
+    /* a less boring color */
+    text-shadow: 1px 1px #7887AB;
+    /* gives the icon a little depth */
+    /* font-size:1.25em; font awesome icons are text, so make it a bit bigger */
+    margin-left: 1%;
+    /* this keeps the icon from being squeeezed to the left */
+    margin-right: 1%;
+}
+
+/* ***************************************
+        Start - questionnaire.php
+*************************************** */
+
+div.form_wrapper {
+    float: left;
+    width: 58%;
+    border: 2px solid #000C26;
+    margin-left: 10px;
+    background-color: #669999;
+    border-radius: 5px;
+}
+
+#heard_select {
+    padding-bottom: 20px;
+}
+
+#services_fieldset {
+    float: left;
+}
+
+#time_fieldset {
+    float: right;
+}
+
+#add_info {
+    clear: both;
+    padding-top: 20px;
+
+}
+
+/* --------------------------------------
+   Questionnaire - Responsive
+---------------------------------------*/
+
+@media all and (max-width:1150px) {
+
+    #services_fieldset {
+        float: none;
+        width: 90%;
+
+    }
+
+    #time_fieldset {
+        float: none;
+        width: 90%;
+
+    }
+
+}
+
+
+/* ***************************************
+        Start - contact.php
+*************************************** */
+
+div.contact_form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* ***************************************
+        Start - reCAPTCHA
+*************************************** */
+
+/* writes to small text above reCAPTCHA upon failure */
+
+.dateFeedback {
+    font-style: italic;
+    font-size: 70%;
+    font-weight: bold;
+    color: #f00;
+}
+
+input:required {
+    border: 1px solid red;
+}
+
+input:optional,
+textarea:optional {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+input[type="Submit"],
+input[type="button"] {
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    border: solid 2px #ccc;
+    padding: .5em 0.75em;
+    margin: 5px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 2px;
+    /*    max-width: 350px;*/
+}
+
+legend {
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+    /*    border-left: 1px solid #ccc;*/
+    /*    border-right: 1px solid #ccc;*/
+}
+
+
+
+/* ***************************************
+            Responsive
+*************************************** */
+
+/* --------------------------------------
+   Calendar rules for lower resolution
+---------------------------------------*/
+
+@media all and (max-width:780px) {
+
     /* Show agenda view*/
-     div.embed-container.agenda-view {
-         display:block;
+    div.embed-container.agenda-view {
+        display: block;
     }
-     h2.agenda-view {
-         display: block;
+
+    h3.agenda-view {
+        display: block;
     }
+
     /* Hide month view */
-     div.embed-container.month-view {
-         display: none;
+    div.embed-container.month-view {
+        display: none;
     }
-     h2.month-view {
-         display: none;
+
+    h3.month-view {
+        display: none;
+    }
+}
+
+/* --------------------------------------
+    Resolution - 1151px +
+---------------------------------------*/
+
+@media all and (min-width: 1151px) {}
+
+
+/* --------------------------------------
+    Resolution - 855px to 1150
+---------------------------------------*/
+
+@media all and (min-width:855px) and (max-width:1150px) {
+
+    h1 {
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    div.code {
+        margin: 0 auto;
+        width: 90%;
+        float: none;
+    }
+
+    .two-col {
+        margin: 0 auto;
+        width: 90%;
+        float: none;
+    }
+
+    article.research,
+    aside.research,
+    aside.google {
+        float: none;
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .cites li {
+        font-size: 1em;
+    }
+
+    div.dot {
+        float: none;
+    }
+
+    /* Responsive Calendar */
+
+    .embed-container {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    /* Responsive Forms */
+
+    #heard_select {
+        padding-bottom: 20px;
+    }
+
+    #services_fieldset {
+        float: none;
+        display: block;
+    }
+
+
+    #time_fieldset {
+        float: none;
+        display: block;
     }
 }
 
 
 
-/* MOBILE STYLES */
- @media all and (max-width:600px) {
-     main {
-         width: 100%;
-         border: 1px solid #25274d;
+
+/* --------------------------------------
+    Resolution - up to 854px
+---------------------------------------*/
+
+@media all and (max-width:854px) {
+    html {
+        background-color: #000C26;
+        background-image: url();
     }
-     section.tools {
-         width: 100%;
-         margin: auto;
+
+
+    main.wrapper {
+        width: 98%;
+        margin: 5% auto;
     }
-     section {
-         float:none;
-         width: 95%;
+
+    h1 {
+        width: 100%;
+        padding-left: 1%;
     }
-     aside {
-         float: none;
-         margin: auto;
-         width: 90%;
+
+    div.code {
+        margin: 0 auto;
+        width: 100%;
+        float: none;
     }
-     
-/*Start of Gallery*/
-    figure {
-         border-radius: 20px;
-     }
-     section.gallery {
-         width: 90%;
-         border-radius: 20px;
+
+    .two-col {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+
     }
-     aside.gallery {
-         width: 60%;
-         border-radius: 10%;
+
+
+    article.research,
+    aside.index,
+    aside.research,
+    aside.google {
+        float: none;
+        display: block;
+        width: 95%;
+        margin: 10px auto;
     }
-     .contact {
-         text-align: center 
+
+    .cites li {
+        font-size: 1em;
     }
-     aside.tools {
-         margin-top: 1em;
+
+    /* Responsive Calendar */
+    .embed-container {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
     }
-     .grid-container {
-         box-sizing: border-box;
-         display: inline-grid;
-         grid-template-columns: auto;
-         grid-template-areas: 'main' 'main' 'links' 'cited';
-         grid-row-gap: 20px;
+
+
+    /* Responsive Forms */
+
+    div.form_wrapper {
+        float: none;
+        width: 95%;
+        margin: 10px auto;
     }
-     .links {
-         grid-area: links;
-         width: auto;
-         margin: auto;
-         border: 3px solid #25274d;
-         border-radius: 10px;
+
+    #heard_select {
+        padding-bottom: 20px;
     }
-     .cited {
-         grid-area: cited;
-         margin-top: 20px;
-         box-sizing:border-box;
-         margin: auto;
-         width: auto;
-         border-radius: 10px;
+
+    #services_fieldset {
+        float: none;
     }
+
+
+    #time_fieldset {
+        float: none;
+    }
+
+
 }
