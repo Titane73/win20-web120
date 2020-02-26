@@ -1,10 +1,7 @@
 <?php include "includes/header.php";?>
 
-<main class="wrapper">
-
-    <h2 class="subheader">Contact Form</h2>
-    <div class="contact_form">
-        <?php
+<div class="contact_form">
+    <?php
         /*
          * Below are 2 different forms to be re-used       
          * 
@@ -16,11 +13,11 @@
 
         $toAddress = "thomas.ti.hall@gmail.com";  //place your/your client's email address here
         $toName = "Ti Hall"; //place your client's name here
-        $website = "Web 110 Contact Form";  //place NAME of your client's website
+        $website = "Web 120 Contact Form";  //place NAME of your client's website
 
         echo loadContact('simple.php');#demonstrates a simple contact form
-        //echo loadContact('multiple.php');#demonstrates multiple form elements
+//        echo loadContact('multiple.php');#demonstrates multiple form elements
 
 	?>
-    </div>
-    <?php include "includes/footer.php";?>
+</div>
+<?php include "includes/footer.php";?>

@@ -1,36 +1,70 @@
 <?php include "includes/header.php";?>
-     
-       <!-- START LEFT COLUMN -->
-        <section class="home">
 
-            <h2 class="subheader">Greetings and Salutations!</h2>
+<!-- START LEFT COLUMN -->
 
-            <p>After 25 years in the beauty industry, I decided it was time for a change. I left my shears and shampoo capes behind and began my education anew. This web site is the culmination of my web development journey thus far. From the navigation bar to the articles within to the color of the text, these pages are what I have learned in just eight weeks. My journey has only just begun and I am excited for what I will be able to do in a year.</p>
+<div class="form_wrapper">
 
-            <p>As well as web authoring, I am also studying database design and software development. I will continue my education at Seattle Central College, working to become a full stack developer with a heavy lean toward databases and web development. From hairburner to tech geek… who would have thought?</p>
+    <?php
 
-        </section>
 
-        <!-- END LEFT COLUMN -->
+        include 'includes/contact_include.php'; #site keys & code here
 
-        <!-- START RIGHT COLUMN -->
+        $toAddress = "thomas.ti.hall@gmail.com";  //place your/your client's email address here
+        $toName = "Ti Hall"; //place your client's name here
+        $website = "Web 120 Client Form";  //place NAME of your client's website
 
-        <aside class="home">
+        echo loadContact('questionnaire.php');#demonstrates multiple form elements
 
-            <h3>Helpful &amp; Fun</h3>
+	?>
+</div>
 
-            <ul class="home">
-                <li><a href="https://www.w3schools.com/howto/default.asp" target="_blank">W3 Schools How To</a></li>
 
-                <li><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></li>
+<!-- END LEFT COLUMN -->
 
-                <li><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">Color Codes by Dixon &amp; Moe</a></li>
+<!-- START RIGHT COLUMN -->
 
-                <li><a href="http://rabbit.eng.miami.edu/info/htmlchars.html" target="_blank">HTML Character Codes</a>
-                </li>
+<aside class="index">
+
+    <h3>Helpful Resources</h3>
+
+    <ul>
+        <li>The User Experience
+
+
+            <ul>
+                <li><a href="https://www.smashingmagazine.com/2010/10/what-is-user-experience-design-overview-tools-and-resources/" target="_blank">What is User Experience Design?</a></li>
+
+                <li><a href="https://www.uxpin.com/studio/blog/customer-experience-vs-user-experience-why-the-difference-matters/" target="_blank">CX vs. UX</a></li>
+
+                <li><a href="https://www.youtube.com/watch?v=Um3BhY0oS2c" target="_blank">What is the UX Design Process (Video)</a></li>
+
+
             </ul>
+        </li>
 
-        </aside>
-        <!-- END RIGHT COLUMN -->
-       
+
+        <li>Types of Websites
+
+            <ul>
+                <li><a href="http://www.webyurt.com/popular-types-of-websites">10 Most Popular Types of Websites</a></li>
+
+            </ul>
+        </li>
+
+        <li>Consider Your Brand
+            <ul>
+
+                <li><a href="https://www.lean-labs.com/blog/seven-examples-of-branding-and-website-design" target="_blank">Examples of Branding</a></li>
+
+                <li><a href="tributemedia.com/branding-web" target="_blank">Branding For The Web</a></li>
+
+            </ul>
+        </li>
+    </ul>
+
+</aside>
+
+
+<!-- END RIGHT COLUMN -->
+
 <?php include "includes/footer.php";?>
