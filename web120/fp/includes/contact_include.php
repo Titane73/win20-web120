@@ -1,6 +1,6 @@
 <?php
 /**
- * contact_include.php hides the messy code that supports simple.php and multiple.php 
+ * contact_include.php hides the messy code that supports simple.php and contact_form.php 
  *
  * These pages provide a postback application designed to provide a 
  * contact form for users to email our clients.  The code references 
