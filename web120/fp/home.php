@@ -17,7 +17,7 @@
 
 
     <div class='resp-container'>
-        <iframe class="resp-iframe" src='https://www.youtube.com/embed//LZ6ivBNnhOE' frameborder='0' allowfullscreen></iframe>
+        <iframe class="resp-iframe" title="Now Playing" src='https://www.youtube.com/embed//LZ6ivBNnhOE' frameborder='0' allowfullscreen></iframe>
     </div>
 
     <!-- Slideshow container -->

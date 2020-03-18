@@ -10,16 +10,16 @@
         <!-- Images used to open the lightbox -->
         <div class="row">
             <div class="column">
-                <img src="images/galleries_temp/img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <img src="images/galleries/thumbnails/img1_thumb.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="temp image">
             </div>
             <div class="column">
-                <img src="images/galleries_temp/img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <img src="images/galleries/thumbnails/img2_thumb.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="temp image">
             </div>
             <div class="column">
-                <img src="images/galleries_temp/img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <img src="images/galleries/thumbnails/img3_thumb.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="temp image">
             </div>
             <div class="column">
-                <img src="images/galleries_temp/img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <img src="images/galleries/thumbnails/img4_thumb.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="temp image">
             </div>
         </div>
 
@@ -30,22 +30,22 @@
 
                 <div class="mySlides">
                     <div class="numbertext">1 / 4</div>
-                    <img src="images/galleries_temp/img1.jpg" style="width:100%">
+                    <img src="images/galleries/img1_1024x768.jpg" alt="temp image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">2 / 4</div>
-                    <img src="images/galleries_temp/img2.jpg" style="width:100%">
+                    <img src="images/galleries/img2_1024x768.jpg" alt="temp image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">3 / 4</div>
-                    <img src="images/galleries_temp/img3.jpg" style="width:100%">
+                    <img src="images/galleries/img3_1024x768.jpg" alt="temp image">
                 </div>
 
                 <div class="mySlides">
                     <div class="numbertext">4 / 4</div>
-                    <img src="images/galleries_temp/img4.jpg" style="width:100%">
+                    <img src="images/galleries/img4_1024x768.jpg" alt="temp image">
                 </div>
 
                 <!-- Next/previous controls -->
@@ -59,31 +59,30 @@
 
                 <!-- Thumbnail image controls -->
                 <div class="column">
-                    <img class="demo" src="images/galleries_temp/img1.jpg" onclick="currentSlide(1)" alt="Temp 1">
+                    <img class="demo" src="images/galleries/thumbnails/img1_thumb.jpg" onclick="currentSlide(1)" alt="temp image">
                 </div>
 
                 <div class="column">
-                    <img class="demo" src="images/galleries_temp/img2.jpg" onclick="currentSlide(2)" alt="Temp 2">
+                    <img class="demo" src="images/galleries/thumbnails/img2_thumb.jpg" onclick="currentSlide(2)" alt="temp image">
                 </div>
 
                 <div class="column">
-                    <img class="demo" src="images/galleries_temp/img3.jpg" onclick="currentSlide(3)" alt="Temp 3">
+                    <img class="demo" src="images/galleries/thumbnails/img3_thumb.jpg" onclick="currentSlide(3)" alt="temp image">
                 </div>
 
                 <div class="column">
-                    <img class="demo" src="images/galleries_temp/img4.jpg" onclick="currentSlide(4)" alt="Temp 4">
+                    <img class="demo" src="images/galleries/thumbnails/img4_thumb.jpg" onclick="currentSlide(4)" alt="temp image">
                 </div>
             </div>
         </div>
     </div>
 
 
-
     <div class="threads">
 
         <h2>Comment Section - Coming At Some Future Time</h2>
 
-        <textarea class="comments" rows="10" cols="50" name="comment" readonly>Future sight of user comments and threads</textarea>
+        <textarea class="comments" rows="10" cols="50" name="comment" aria-label="comments" readonly>Future sight of user comments and threads</textarea>
 
 
 

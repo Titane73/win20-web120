@@ -43,10 +43,10 @@
         <div class="overlay-content">
             <a href="home.php">Home</a>
             <a href="about.php">All About Weird</a>
+            <a href="projects.php">Project Calendar</a>
             <a href="film.php">Film Collection</a>
             <a href="stage.php">Stage Gallery</a>
             <a href="beyond.php">Beyond the Scenes</a>
-            <a href="projects.php">Project Calendar</a>
             <a href="members.php">Member's Vault</a>
             <a href="contact.php">Contact</a>
         </div>

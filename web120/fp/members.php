@@ -27,11 +27,11 @@
 
                 <div class="form_container">
                     <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <input type="text" placeholder="Enter Username" name="uname" aria-label="username" required>
                     <br>
 
                     <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <input type="password" placeholder="Enter Password" name="psw" aria-label="password" required>
                     <br>
                     <button type="submit">Login</button>
                     <br>

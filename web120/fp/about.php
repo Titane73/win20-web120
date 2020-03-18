@@ -14,7 +14,7 @@
 
         <figure class="weirdo1">
             <img src="images/forward_320x180.jpg" alt="temporary group like image">
-            <figcaption>The Monstrous Legion Again</figcaption>
+            <figcaption>The Monstrous Legion</figcaption>
         </figure>
 
         <p>Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus. Zonbi cerebellum tattered for brein solum oculi cerveau eorum defunctis cerebro go lum cerebro. Nescio brains an Undead cervello zombies. Sicut thalamus malus putrid brains voodoo horror. Nigh basal ganglia tofth eliv ingdead.</p>
@@ -36,7 +36,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/amanduh-600px2.jpg" alt="Amanduh">
+                        <img class="flip-img" src="images/bios/amanduh_200x300.jpg" alt="Amanduh">
                     </div>
                     <div class="flip-card-back">
                         <h4>Amanduh</h4>
@@ -49,7 +49,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/adult-black-coat.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/kayako_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Kayako Saeki</h4>
@@ -62,7 +62,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/greyscale-photo-of-day-of-the-dead-corpse-bride-604694.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/korpsa_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Korpsa D'Bryde</h4>
@@ -75,7 +75,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/selective-focus-photography-of-skeleton-1528375.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/theodore_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Theodore Bones</h4>
@@ -88,7 +88,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/red-hoodie-3054218.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/jack_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Jack O'Landon</h4>
@@ -101,7 +101,7 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/person-s-face-covered-with-hair-wearing-sunglasses-2902970.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/itt_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Itt Addams</h4>
@@ -114,12 +114,24 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="flip-img" src="images/bios_temp/woman-standing-beside-tree-2369806.jpg" alt="Temporary bio image">
+                        <img class="flip-img" src="images/bios/ella_200x300.jpg" alt="Temporary bio image">
                     </div>
                     <div class="flip-card-back">
                         <h4>Ella L'Fae </h4>
-                        <p>Evil Faerie Princess</p>
+                        <p>Dark Faerie Princess</p>
                         <p>Collects poisonous mushrooms</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img class="flip-img" src="images/bios/arachnie_200x300.jpg" alt="Temporary bio image">
+                    </div>
+                    <div class="flip-card-back">
+                        <h4>Arachnie Nightspinner</h4>
+                        <p>Spider Extrordinaire</p>
+                        <p>Fond of knitting and weaving ugly sweaters</p>
                     </div>
                 </div>
             </div>
