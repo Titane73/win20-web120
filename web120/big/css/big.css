@@ -203,6 +203,10 @@ aside.google {
     padding-left: 2em;
 }
 
+.google li {
+    text-align: left;
+}
+
 .event {
     width: 90%;
     border: 1px dotted #000C26;
@@ -235,6 +239,7 @@ aside.google {
 input[type=text],
 input[type=email],
 select,
+fieldset,
 textarea {
     width: 100%;
     padding: 12px;
@@ -290,7 +295,7 @@ div.embed-container {
 
 /* Hide agenda view of calendar */
 
-div.embed-container.agenda-view {
+div.agenda-view {
     display: none;
 }
 
@@ -457,7 +462,7 @@ legend {
 @media all and (max-width:780px) {
 
     /* Show agenda view*/
-    div.embed-container.agenda-view {
+    div.agenda-view {
         display: block;
     }
 
@@ -466,7 +471,7 @@ legend {
     }
 
     /* Hide month view */
-    div.embed-container.month-view {
+    div.month-view {
         display: none;
     }
 
