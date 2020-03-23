@@ -760,6 +760,15 @@ fieldset {
 
 }
 
+.contact-feedback {
+    border: 3px solid #490000;
+    border-radius: 5px;
+}
+
+.contact-feedback p {
+    text-align: center;
+}
+
 /**********************************
         FOOTER.PHP
 **********************************/

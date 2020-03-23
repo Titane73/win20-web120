@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="land-wrap">
+<body>
 
 
     <main class="land-wrap">
