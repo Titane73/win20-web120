@@ -1,6 +1,6 @@
 <?php include "includes/header.php";?>
 
-<div class="aia_bkgd">
+<div class="fp_bkgd">
 
 
     <table class="client">
@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Site Status</td>
-            <td>New site</td>
+            <td>Redesign</td>
         </tr>
         <tr>
             <td> Type of Website </td>
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>Client's Goal(s)</td>
-            <td>Web site will act as portfolio, performance/work calendars, public feedback forum, web presence, project coordination tool</td>
+            <td>Web site will act as gallery style portfolios, performance/work calendars, public feedback forum, web presence, project coordination tool</td>
 
         </tr>
     </table>
@@ -48,9 +48,11 @@
             </td>
             <td class="needs">
                 <ul>
-                    <li>Able to track interact with projects and create and maintain calendar.</li>
-                    <li>Have access to potential members inqiries.</li>
-                    <li>Access documentation for variety of projects, including festival and educational material.</li>
+
+                    <li>Create and email newsletter.</li>
+                    <li>Track interact with projects and maintain calendar.</li>
+                    <li>Access potential members inqiries.</li>
+                    <li>Access documentation for projects, including festival and educational material.</li>
 
                 </ul>
             </td>
@@ -72,7 +74,7 @@
             </td>
             <td class="needs">
                 <ul>
-                    <li>Find information on the company, projects, and members</li>
+                    <li>Access public information on the company, projects, and members</li>
                     <li>Be able to make inquiries</li>
                     <li>View, comment, and respond in galleries</li>
 

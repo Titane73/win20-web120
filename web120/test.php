@@ -1,8 +1,6 @@
-<?php include "includes/header.php";?>
+<?php
      
-   <main class="wrapper">
-     
-Just a test to see what happens.
+ech 'This is php!'
        
-<?php include "includes/footer.php";?>
+?>
        
